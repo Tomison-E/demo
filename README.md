@@ -5,7 +5,7 @@ A new Flutter project.
 ## APP VIEW
 ![A](screenshots/A.png)
 
-![B](screenshots/B.PNG)
+![B](screenshots/B.png)
 
 ![C](screenshots/C.png)
 
