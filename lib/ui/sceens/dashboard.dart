@@ -1,3 +1,4 @@
+import 'package:demo/utils/sizeConfig.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -100,7 +101,7 @@ class _DashboardView extends State<DashboardView>{
                          SizedBox(width: 30),
                          Container(
                            decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),color: Color.fromRGBO(230, 99, 149,1.0)),
-                           child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),color: Color.fromRGBO(224, 17, 95, 1.0))),padding: EdgeInsets.only(right: 70),width: 250,height: 30,
+                           child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),color: Color.fromRGBO(224, 17, 95, 1.0))),padding: EdgeInsets.only(right: SizeConfig.blockSizeHorizontal*20),width: SizeConfig.blockSizeHorizontal*80,height: 30,
                          ),SizedBox(width: 20),
                          Text("₦0.00\nProfit",style: TextStyle(color: Colors.black,fontSize: 12)),
                        ],),
@@ -109,7 +110,7 @@ class _DashboardView extends State<DashboardView>{
                          SizedBox(width: 30),
                          Container(
                            decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),color: Color.fromRGBO(230, 99, 149,1.0)),
-                           child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),color: Color.fromRGBO(224, 17, 95, 1.0))),padding: EdgeInsets.only(right: 100),width: 200,height: 30,
+                           child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),color: Color.fromRGBO(224, 17, 95, 1.0))),padding: EdgeInsets.only(right: SizeConfig.blockSizeHorizontal*30),width: SizeConfig.blockSizeHorizontal*70,height: 30,
                          ),SizedBox(width: 20),
                          Text("₦0.00\nExpenses",style: TextStyle(color: Colors.black,fontSize: 12)),
                        ],),

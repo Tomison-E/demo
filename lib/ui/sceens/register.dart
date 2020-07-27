@@ -1,4 +1,5 @@
 import 'package:custom_switch/custom_switch.dart';
+import 'package:demo/utils/sizeConfig.dart';
 import 'package:demo/utils/validators.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +17,7 @@ class _Register extends State<Register>{
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context);
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(leading: IconButton(icon:Icon(Icons.keyboard_backspace,color: Color.fromRGBO(224, 17, 95, 1.0),),onPressed: (){}),actions: <Widget>[
